@@ -1,0 +1,61 @@
+@import "tailwindcss";
+@import "@heroui/styles";
+
+
+@theme {
+    --color-main: #18288D
+}
+
+
+@font-face {
+    font-family: 'Cairo';
+  src: url('./assets/fonts/static/Cairo-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+  src: url('./assets/fonts/static/Cairo-Regular.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+  src: url('./assets/fonts/static/Cairo-Medium.ttf') format('truetype');
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+  src: url('./assets/fonts/static/Cairo-SemiBold.ttf') format('truetype');
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+  src: url('./assets/fonts/static/Cairo-Bold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+    font-family: 'Cairo';
+  src: url('./assets/fonts/static/Cairo-ExtraBold.ttf') format('truetype');
+  font-weight: 800;
+  font-style: normal;
+}
+
+body {
+  font-family: 'Cairo', sans-serif;
+}
+
+.active {
+    @apply bg-white text-[#00298d] shadow-sm;
+}
+
+
+
